@@ -3,6 +3,17 @@
     <head>
         <title>Page Title</title>
         <meta charset="utf-8" />
+        <style>
+            .buttonSpace{
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .checkBox{
+                margin-top: 20px;
+            }
+        </style>
     </head>
     <body>
         <h1>Workshop #HTML - FORM</h1>
@@ -80,15 +91,18 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="checkbox"
-                              name="my_checkbox">ยินยอมให้เก็บข้อมูล
+                        <input class="checkBox"
+                               type="checkbox"
+                               name="my_checkbox">ยินยอมให้เก็บข้อมูล
                         <br>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button type="reset">Reset</button>
-                        <button type="submit">Submit</button>
+                        <div class="buttonSpace">
+                            <button type="reset">Reset</button>
+                            <button type="submit">Submit</button>
+                        </div>
                     </td>
                 </tr>
             </table>
