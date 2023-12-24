@@ -58,7 +58,7 @@
         <pre><?php print_r($arry1);?></pre> 
         <pre><?php print_r($arry2);?></pre>
 
-        <?php for($i = 0; $i < count($arry2)  ; $i++){ ?>
+        <?php for($i = 0; $i < count($arry2); $i++){ ?>
         <h3><?php echo $arry2[$i]; ?></h3>
         <?php } ?>
 
