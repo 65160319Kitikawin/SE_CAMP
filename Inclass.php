@@ -62,9 +62,9 @@
         <h3><?php echo $arry2[$i]; ?></h3>
         <?php } ?>
 
-        <?php foreach($arry2 as $key => $value){ ?>
-        <h3><?php echo $arry2[$key]; ?> : <?php echo $value; ?></h3>
-        <?php } ?>
+        /* <?php foreach($arry2 as $key => $value){ ?>
+           <h3><?php echo $arry2[$key]; ?> : <?php echo $value; ?></h3>
+           <?php } ?> */
 
         <?php foreach($arry2 as $key => $value){ ?>
         <h3><?php echo $arry2[$key]; ?>
@@ -86,7 +86,6 @@
         //    echo "</pre>";
         //}
         ?>
-
 </body>
 
 </html>
