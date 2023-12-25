@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+// use Illuminate\Http\Request;
+Route::get('/my-route', function() {
+    // return view('myroute');
+    //        key    =>  Value
+    $data = ['val_a' => 'Hello World!'];
+    $data['val_b'] = "Laravel";
+    return view('myfolder.mypage', $data);
+});
+
+Route::post('/my-route', function(Request $req) {
+    $data['myinput'] = $req->input('myinput');
+    return view('myroute', $data);
 });
