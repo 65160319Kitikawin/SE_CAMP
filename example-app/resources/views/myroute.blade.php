@@ -6,7 +6,7 @@
 
     <body>
         <h1>My Route Page</h1>
-        <?php echo $data ?>
+        <h1>{{ $myinput }}</h1>
     </body>
 
 </html>
