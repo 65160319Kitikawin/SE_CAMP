@@ -24,6 +24,7 @@ Route::get('/my-route', function() {
     //        key    =>  Value
     $data = ['val_a' => 'Hello World!'];
     $data['val_b'] = "Laravel";
+    $data['val_c'] = "ตารางแม่สูตรคูณตาม Input";
     return view('myfolder.mypage', $data);
 });
 
