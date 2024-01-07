@@ -13,7 +13,7 @@
     </head>
 
     <body>
-        <h1>สูตรคูณแม่ .$myinput</h1>
+        <h1>สูตรคูณแม่ </h1>
         <table>
             <?php  for($i = 1; $i < 25; $i++) {
                 echo "<tr><td>{$myinput} x {$i} = ".($myinput * $i)."</td></tr>";
