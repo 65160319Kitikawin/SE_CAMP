@@ -1,5 +1,5 @@
 <div>
-    <h1>{{$val_c}}</h1>
+    <h1>{{$val_b}}</h1>
     <form method="post" action="/my-route">
         @csrf
         <input type="number" name="myinput" class="number1" placeholder="ตัวเลขแม่สูตรคูณ" />
