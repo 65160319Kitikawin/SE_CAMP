@@ -27,8 +27,8 @@
                       <input type="Lname" class="form-control" id="exampleInputLname1" placeholder="Enter Your Last Name">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputLname1">วัน/เดิอน/ปี</label>
-                        <input type="date" class="form-control" id="exampleInputYear1" placeholder="DD/MM/YYYY">
+                        <label for="exampleInputLname1">เดิอน/วัน/ปี</label>
+                        <input type="date" class="form-control" id="exampleInputYear1">
                       </div>
                     <div class="form-group">
                         <label for="exampleInputAge1">อายุ</label>
