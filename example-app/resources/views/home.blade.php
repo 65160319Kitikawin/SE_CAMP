@@ -28,7 +28,7 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputLname1">วัน/เดิอน/ปี</label>
-                        <input type="date" class="form-control" id="exampleInputYear1" placeholder="MM/DD/YYYY">
+                        <input type="date" class="form-control" id="exampleInputYear1" placeholder="DD/MM/YYYY">
                       </div>
                     <div class="form-group">
                         <label for="exampleInputAge1">อายุ</label>
