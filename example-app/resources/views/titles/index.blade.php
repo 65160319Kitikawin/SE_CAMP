@@ -93,6 +93,11 @@
                                         <td>
                                             <a href="{{ url('/titles/' . $title->tit_id) }}"
                                                 class="btn btn-warning">แก้ไข</a>
+                                            <form method="post" action="/titles/{{ $title->tit_id }}">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn btn-danger">ลบ</button>
+                                            </form>
                                         </td>
                                     </tr>
                                     <?php } ?>
