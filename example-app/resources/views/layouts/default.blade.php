@@ -238,6 +238,10 @@
                         </li>
                     </ul>
                 </nav>
+                <form action="{{ url('/logout') }}">
+                    @csrf
+                    <button type="submit" class="btn btn-block btn-danger btn-lg">Sign Out</button>
+                </form>
                 <!-- /.sidebar-menu -->
             </div>
             <!-- /.sidebar -->
