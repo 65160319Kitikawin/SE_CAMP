@@ -8,7 +8,7 @@
 <body>
     <h1>Before</h1>
     <h1 id="myh1">
-        <h1>Prepend</h1>Javascript<h1>Append</h1>
+        <h1>Prepend</h1><h1>Javascript</h1><h1>Append</h1>
     </h1>
     <h1>After</h1>
     <button onclick="alert('Hello World!')">Click Me!</button>
