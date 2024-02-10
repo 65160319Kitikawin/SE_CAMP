@@ -63,11 +63,11 @@
             console.log(my_second_number)
             if (my_first_number != "" && my_second_number == "") {
                 for(let i = 1; i < 25; i++) {
-                    my_code_tr += `<tr><td>${my_first_number}</td><td> x </td> <td>${i}</td><td> = </td><td>${my_first_number} * ${i}</td></tr>`;
+                    my_code_tr += `<tr><td>${my_first_number}</td><td> x </td> <td>${i}</td><td> = </td><td>${my_first_number * i}</td></tr>`;
                 }
             }else if (my_first_number != "" && my_second_number != "") {
                 for(let i = 1; i <= my_second_number; i++) {
-                    my_code_tr += `<tr><td>${my_first_number}</td><td> x </td> <td>${i}</td><td> = </td><td>${my_first_number} * ${i}</td></tr>`;
+                    my_code_tr += `<tr><td>${my_first_number}</td><td> x </td> <td>${i}</td><td> = </td><td>${my_first_number * i}</td></tr>`;
                 }
             }
             $('#my_tbody').html(my_code_tr)
